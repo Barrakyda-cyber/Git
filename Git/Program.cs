@@ -9,7 +9,8 @@ namespace Git
         {
             Write("Введите число:");
             int input = Convert.ToInt32(Console.ReadLine());
-            Write("Введённое число:" + input);
+            WriteLine("Введённое число:" + input);
+            WriteLine($"Введённое число + 20:\t{input + 20}");
         }
     }
 }
