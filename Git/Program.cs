@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace Git
 {
@@ -6,7 +7,9 @@ namespace Git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Write("Введите число:");
+            int input = Convert.ToInt32(Console.ReadLine());
+            Write("Введённое число:" + input);
         }
     }
 }
